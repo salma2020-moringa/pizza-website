@@ -20,7 +20,7 @@
 }
 #container{
     float: right;
-    
+
 }
 
 .html,
@@ -46,6 +46,11 @@ body{
     color: #ffffff;
     padding: 5px 10px;
     border-radius: 5px;
+}
+#main-home#banner-slide.Owl-Corousel.owl-nav button{
+    position: absolute;
+    top: 30%;
+    outline: none;
 }
 /*responsive style*/
 @media only screen and(max-width:580px){
