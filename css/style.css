@@ -27,6 +27,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+#main-home{
+    width: 100%;
+    min-height: 650px;
+    background: url();
+    background-size: 100% 100%;
+}
 #main-home.header-top.item.a{
     color:#000000;
 }
@@ -62,7 +68,25 @@ body{
     font-size: 55px;
     padding:0 1rem;
     color: #FF004D;
+
 }
+#main-home#banner-slide.Owl-Corousel.owl-nav button.owl-prev span{
+    margin-left: 5rem;
+}
+#main-home#banner-slide.Owl-Corousel.owl-nav button.owl.next span{
+    margin-right: 5rem;
+}
+
+#main-home#banner-slide.Owl-Corousel.owl-dots{
+    position: absolute;
+    bottom: 6rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#main-home#banner-slide.Owl-Corousel.owl-dots button span{
+    background-color: #c8c8c8;
+    padding: 6px;
+
 /*responsive style*/
 @media only screen and(max-width:580px){
     #main-home.header-top{
@@ -84,4 +108,7 @@ body{
     .carousel-caption {
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
+  }
+  #main-home#banner-slide.Owl-Corousel.owl-nav button{
+      display: none;
   }
