@@ -1,7 +1,7 @@
 ## Author
-salma ntidendereza
+Salma Ntidendereza
 ## Description
-* This is a website for a studio called Delani which is a fictional studio. The reason for building the website is to honor my Bootstrap and Jquery skills.
+* This is a website for a restaraunt called Dulcet which is a multi-functional service restaurant. The reason for building the website is to honor my Bootstrap and Jquery skills.
 
 ## Installation/Setup
 * Open your terminal (CTRL ALT T)
