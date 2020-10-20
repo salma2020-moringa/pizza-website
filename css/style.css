@@ -270,6 +270,13 @@ body {
         width: 100%;
     }
 }
+.card{
+    padding-top: 30px;
+    align-items: center;
+}
+.card-body{
+    align-items: center;
+}
 
 @media only screen and (max-width:580px) {
     .top-header>.d-flex {
