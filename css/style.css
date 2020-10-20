@@ -109,6 +109,15 @@ body{
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
   }
+  #main-home#banner-slide{
+      width: 60%;
+      margin: auto;
+  }
+
   #main-home#banner-slide.Owl-Corousel.owl-nav button{
       display: none;
+  }
+
+  #main-home#banner-slide.Owl-Corousel.owl-dots{
+      bottom: 2rem;
   }
