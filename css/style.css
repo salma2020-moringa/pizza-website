@@ -1,4 +1,4 @@
-/* Custom Classes forUse */
+Custom Classes forUse
 
 .bg-gold {
     background-color:  rgb(212, 129, 28);;
@@ -270,14 +270,21 @@ body {
         width: 100%;
     }
 }
-.card{
-    padding-top: 30px;
-    align-items: center;
+#height{
+    height: 300px;
+    width: 320px;
 }
-.card-body{
-    align-items: center;
+.offers{
+    padding: 20px;
 }
+.offers h2{
+    text-align: center;
+    padding: 15px;
 
+}
+#gallery-selection h4{
+    text-align: center;
+}
 @media only screen and (max-width:580px) {
     .top-header>.d-flex {
         flex-direction: column;
@@ -288,6 +295,7 @@ body {
     #banner-section {
         padding: 50px 0;
     }
+
     #banner-section .owl-carousel .owl-nav {
         display: none;
     }
