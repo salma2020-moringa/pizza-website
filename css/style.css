@@ -1,10 +1,10 @@
 /* Custom Classes forUse */
 
-.bg-pink {
+.bg-gold {
     background-color:  rgb(212, 129, 28);;
 }
 
-.color-pink {
+.color-gold {
     color: rgb(212, 129, 28);
 }
 
@@ -125,7 +125,8 @@ body {
 
 #about-section {
     background: url(../img/about-bg.png);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #about-section .overlay {
@@ -298,5 +299,8 @@ body {
     }
     #footer .footer-top .newsletter {
         padding-bottom: 30px;
+    }
+    h4{
+        text-align: center;
     }
 }
