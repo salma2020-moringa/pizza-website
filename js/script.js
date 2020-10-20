@@ -1,10 +1,10 @@
-$document.ready(function(){
-
-}
-//owl banner-slide
-$("#banner-slide.Owl-Carousel").owlCorousel({
-    items:1;
-    loop:true;
-    autoplay:true;
-    nav:true;
+$(document).ready(function() {
+    // Owl Carousel Slider
+    $("#banner-section .owl-carousel").owlCarousel({
+        dots: true,
+        nav: true,
+        items: 1,
+        loop: true,
+        autoplay: true
+    });
 });
