@@ -4,9 +4,9 @@
 <head>
     <title>Dulcet Pizza - stolzbar & dieter!</title>
     <!-- Favicon  Link -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="manifest" href="img/site.webmanifest">
 
     <!-- Bootstrap CSS CDN -->
@@ -30,6 +30,12 @@
 </head>
 
 <body>
+    <!-- Preloader starts -->
+    <div id="preloader" class="preloader">
+      <div class="status"></div>
+    </div>
+    <!-- Preloader ends -->
+
     <!-- Home Section -->
     <div id="main-home">
         <!-- Header -->
@@ -91,7 +97,7 @@
         </div>
 
         <!-- Banner Section -->
-        <div class="banner" id="banner-section">
+        <!-- <div class="banner" id="banner-section">
             <div class="container">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
@@ -154,7 +160,45 @@
     </div>
     </div>
 
-    </div>
+    </div> -->
+    <section class="service" id="services">
+        <div class="container">
+          <div class="icon-img text-center mt-5">
+              <h3 class="service-title text-capitalize mt-3">my services</h3>
+              <p class="service-text">
+                Fattlened base of leavened wheat-based dough topped with tomatoes,Cheese</p>
+          </div>   
+          <div class="slider">
+            <div class="items">
+              <img
+                src="./img/pizza-small.png"
+                alt=""
+                class="first-img"
+                loading="lazy"
+              />
+              <p class="img-text mt-2">spicy pizza</p>
+            </div>
+            <div class="items">
+              <img
+                src="./img/pizza-small.png"
+                alt=""
+                class="first-img"
+                loading="lazy"
+              />
+              <p class="img-text mt-2">Homebaked pizza</p>
+            </div>
+            <div class="items">
+              <img
+                src="./img/pizza-small.png"
+                alt=""
+                class="first-img"
+                loading="lazy"
+              />
+              <p class="img-text mt-2">fresh pizza</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
     <!-- About Section -->
     <div id="about-section">
@@ -195,10 +239,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
     </section>
 
     <!-- Divider -->

@@ -64,8 +64,17 @@ body {
 .navbar .nav-item .nav-link:hover {
     color:  rgb(212, 129, 28);
 }
+#preloader {
+    background: var(--bg-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+  }
 
-#banner-section {
+/* #banner-section {
     padding-top: 50px;
 }
 
@@ -119,7 +128,100 @@ body {
 #banner-section .owl-carousel .owl-nav button.owl-next span {
     margin-right: -5rem;
 }
+ */
+ /* Service starts here */
+.service {
+    background: var(--bg-color);
+    padding: 1px;
+  
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    line-height: 30px;
+    font-family: var(--title-font);
+  }
+  
+  .service-text,
+  .review-text,
+  .ach-text,
+  .ach-icon-text {
+    color: var(--text-color);
+    font-size: 0.875rem;
+    font-family: var(--text-font);
+    line-height: 17px;
+    font-weight: normal;
+  }
+  .img-text {
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--text-font);
+    line-height: 19px;
+  }
+  
+  .slider {
+    width: 100%;
+  }
+  
+  .items {
+    text-align: center;
+    outline: 0;
+  }
+  
+  .first-img {
+    width: 100%;
+  }
+  
+  .slick-dots li {
+    width: 15px;
+    height: 15px;
+    background: var(--text-color);
+    border-radius: 50%;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 26px;
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    color: var(--grey-color);
+  }
+  .img-text {
+    font-size: 1.5rem;
+    line-height: 29px;
+  }
 
+  .service-title {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .service-text,
+  .review-text,
+  .ach-icon-text {
+    font-size: 1rem;
+    line-height: 19px;
+  }
+
+  .ach-text {
+    font-size: 1rem;
+    line-height: 120.5%;
+  }
+
+  /* services ends here */
+  /* achievement starts here */
+
+  .ach-text {
+    width: 80%;
+  }
+
+  .ach-icon-title {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
 
 /* About Section */
 
