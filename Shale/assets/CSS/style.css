@@ -1,15 +1,15 @@
-Custom Classes forUse
+/* Custom Classes forUse */
 
 .bg-gold {
-    background-color:  rgb(212, 129, 28);;
+    background-color: #FFC60B;
 }
 
 .color-gold {
-    color: rgb(212, 129, 28);
+    color: #FFC60B;
 }
 
 .btn-theme {
-    background-color:  rgb(212, 129, 28);
+    background-color: #FFC60B;
     padding: 5px 20px;
     color: #fff;
     outline: none;
@@ -37,8 +37,8 @@ body {
 #main-home {
     width: 100%;
     min-height: 650px;
-    background: url(../img/bg-home.jpg);
-    background-size: 100% 100%;
+    background-image: url(../img/bg-home.jpg);
+    background-size: cover;
 }
 
 .top-header .item a {
@@ -46,7 +46,7 @@ body {
 }
 
 .top-header .item a:hover {
-    color:  rgb(212, 129, 28);;
+    color: #FFC60B;
 }
 
 .cart {
@@ -62,19 +62,10 @@ body {
 }
 
 .navbar .nav-item .nav-link:hover {
-    color:  rgb(212, 129, 28);
+    color: #FFC60B;
 }
-#preloader {
-    background: var(--bg-color);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 9999;
-  }
 
-/* #banner-section {
+#banner-section {
     padding-top: 50px;
 }
 
@@ -97,7 +88,7 @@ body {
 }
 
 #banner-section .owl-carousel .owl-dots button.active span {
-    background-color:  rgb(212, 129, 28);;
+    background-color: #FFC60B;
 }
 
 #banner-section .owl-carousel .owl-nav button {
@@ -118,7 +109,7 @@ body {
 #banner-section .owl-carousel .owl-nav button.owl-next span {
     font-size: 56px;
     padding: 0 1rem;
-    color:  rgb(212, 129, 28);;
+    color: #FFC60B;
 }
 
 #banner-section .owl-carousel .owl-nav button.owl-prev span {
@@ -128,107 +119,13 @@ body {
 #banner-section .owl-carousel .owl-nav button.owl-next span {
     margin-right: -5rem;
 }
- */
- /* Service starts here */
-.service {
-    background: var(--bg-color);
-    padding: 1px;
-  
-  }
-  
-  .service-title {
-    font-size: 1.5rem;
-    color: var(--primary-color);
-    font-weight: bold;
-    line-height: 30px;
-    font-family: var(--title-font);
-  }
-  
-  .service-text,
-  .review-text,
-  .ach-text,
-  .ach-icon-text {
-    color: var(--text-color);
-    font-size: 0.875rem;
-    font-family: var(--text-font);
-    line-height: 17px;
-    font-weight: normal;
-  }
-  .img-text {
-    color: var(--text-color);
-    font-size: 1rem;
-    font-weight: bold;
-    font-family: var(--text-font);
-    line-height: 19px;
-  }
-  
-  .slider {
-    width: 100%;
-  }
-  
-  .items {
-    text-align: center;
-    outline: 0;
-  }
-  
-  .first-img {
-    width: 100%;
-  }
-  
-  .slick-dots li {
-    width: 15px;
-    height: 15px;
-    background: var(--text-color);
-    border-radius: 50%;
-  }
-  
-  .slick-dots li button:before {
-    font-size: 26px;
-    width: 15px;
-    height: 15px;
-    opacity: 1;
-    color: var(--grey-color);
-  }
-  .img-text {
-    font-size: 1.5rem;
-    line-height: 29px;
-  }
 
-  .service-title {
-    font-size: 2rem;
-    line-height: 40px;
-  }
-
-  .service-text,
-  .review-text,
-  .ach-icon-text {
-    font-size: 1rem;
-    line-height: 19px;
-  }
-
-  .ach-text {
-    font-size: 1rem;
-    line-height: 120.5%;
-  }
-
-  /* services ends here */
-  /* achievement starts here */
-
-  .ach-text {
-    width: 80%;
-  }
-
-  .ach-icon-title {
-    font-size: 1.5rem;
-    line-height: 30px;
-  }
 
 /* About Section */
 
 #about-section {
     background: url(../img/about-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 #about-section .overlay {
@@ -288,7 +185,7 @@ body {
 
 #contact-section form .form-control {
     background-color: rgba(255, 255, 255, 0.8);
-    border-color:  rgb(212, 129, 28);;
+    border-color: #FFC60B;
     padding-left: 20px;
     margin: 10px 0;
 }
@@ -298,7 +195,7 @@ body {
 }
 
 #contact-section form .form-control:focus {
-    box-shadow: 0 0 5px 0  rgb(212, 129, 28);;
+    box-shadow: 0 0 5px 0 #FFC60B;
 }
 
 #footer .footer-top {
@@ -313,13 +210,13 @@ body {
 
 #footer .footer-top form input {
     background-color: rgba(255, 255, 255, 0.8);
-    border-color:  rgb(212, 129, 28);
+    border-color: #FFC60B;
     padding-left: 20px;
     margin: 10px 0;
 }
 
 #footer .footer-top form .form-control:focus {
-    box-shadow: 0 0 5px 0  rgb(212, 129, 28);
+    box-shadow: 0 0 5px 0 #FFC60B;
 }
 
 #footer .footer-top .social a i {
@@ -329,12 +226,12 @@ body {
 }
 
 #footer .footer-top .social a i:hover {
-    color:  rgb(212, 129, 28);
+    color: #FFC60B;
 }
 
 #footer .footer-bottom {
     color: #ffffff;
-    background-color:  rgb(212, 129, 28);
+    background-color: #FFC60B;
     padding: 20px 0 1px;
     text-align: center;
 }
@@ -372,21 +269,7 @@ body {
         width: 100%;
     }
 }
-#height{
-    height: 300px;
-    width: 320px;
-}
-.offers{
-    padding: 20px;
-}
-.offers h2{
-    text-align: center;
-    padding: 15px;
 
-}
-#gallery-selection h4{
-    text-align: center;
-}
 @media only screen and (max-width:580px) {
     .top-header>.d-flex {
         flex-direction: column;
@@ -397,7 +280,6 @@ body {
     #banner-section {
         padding: 50px 0;
     }
-
     #banner-section .owl-carousel .owl-nav {
         display: none;
     }
@@ -416,8 +298,5 @@ body {
     }
     #footer .footer-top .newsletter {
         padding-bottom: 30px;
-    }
-    h4{
-        text-align: center;
     }
 }
